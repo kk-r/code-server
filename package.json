@@ -5,7 +5,8 @@
   "license": "MIT",
   "description": "Run VS Code remotely.",
   "engines": {
-    "node": "10.15.1"
+    "node": "10.15.1",
+    "yarn": "1.13"
   },
   "scripts": {
     "build:rules": "cd ./rules && tsc -p .",
